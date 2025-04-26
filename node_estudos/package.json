@@ -1,12 +1,17 @@
 {
   "name": "node_estudos",
   "version": "1.0.0",
-  "description": "estudando node",
-  "main": "server.js",
+  "main": "person.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start:dev": "nodemon index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
